@@ -1,7 +1,24 @@
 /* Warm-up CSS for Flexbox */
 
 /* 1. Select the "flex-container" class and apply Flexbox */
+.flex-container{
+    display: flex;
+    height: 150px;
+    background-color: rgb(101, 132, 197);
+    justify-content: space-evenly;
+    align-items: center;
+}
 
+
+.box1, .box2, .box3{
+    background-color: lightskyblue;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    align-content: center;
+    border: 2px solid rgb(255, 255, 231)
+}
     /* Apply display property with value flex */
     
 
